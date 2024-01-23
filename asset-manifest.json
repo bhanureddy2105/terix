@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/terix/static/css/main.2891970c.css",
+    "main.js": "/terix/static/js/main.7f8777da.js",
+    "static/js/787.4c501bc1.chunk.js": "/terix/static/js/787.4c501bc1.chunk.js",
+    "static/media/pipeline.svg": "/terix/static/media/pipeline.f7f802f944045a47e19b7d8696ce9b5a.svg",
+    "static/media/bio.svg": "/terix/static/media/bio.6273b68c1144f83878712bc9bef53e75.svg",
+    "static/media/deep-learning.svg": "/terix/static/media/deep-learning.a449881e269510ca38395efb9d3de9e9.svg",
+    "static/media/research.svg": "/terix/static/media/research.12004a974e612fa595a170f5edb5e4a2.svg",
+    "static/media/image.png": "/terix/static/media/image.d8d73c726b5782e381c5.png",
+    "index.html": "/terix/index.html",
+    "main.2891970c.css.map": "/terix/static/css/main.2891970c.css.map",
+    "main.7f8777da.js.map": "/terix/static/js/main.7f8777da.js.map",
+    "787.4c501bc1.chunk.js.map": "/terix/static/js/787.4c501bc1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2891970c.css",
+    "static/js/main.7f8777da.js"
+  ]
+}
