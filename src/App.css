@@ -7,8 +7,28 @@
   pointer-events: none;
 }
 
-.card-color{
+.card-color {
   background-color: #DEECF0;
+}
+
+.footer-text-color {
+  color: #7E2ECE
+}
+
+
+.team-color {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 96px;
+  line-height: 116px;
+  letter-spacing: 0.40em;
+
+  background: linear-gradient(181.21deg, #7932DB 1.04%, rgba(58, 54, 64, 0) 98.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transform: rotate(-90deg);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -36,6 +56,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
