@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/terix/static/css/main.42b80b86.css",
-    "main.js": "/terix/static/js/main.ef30a04a.js",
+    "main.js": "/terix/static/js/main.d9db9ea4.js",
     "static/js/787.4c501bc1.chunk.js": "/terix/static/js/787.4c501bc1.chunk.js",
     "static/media/pipeline.svg": "/terix/static/media/pipeline.f7f802f944045a47e19b7d8696ce9b5a.svg",
     "static/media/bio.svg": "/terix/static/media/bio.6273b68c1144f83878712bc9bef53e75.svg",
@@ -12,11 +12,11 @@
     "static/media/image.png": "/terix/static/media/image.d8d73c726b5782e381c5.png",
     "index.html": "/terix/index.html",
     "main.42b80b86.css.map": "/terix/static/css/main.42b80b86.css.map",
-    "main.ef30a04a.js.map": "/terix/static/js/main.ef30a04a.js.map",
+    "main.d9db9ea4.js.map": "/terix/static/js/main.d9db9ea4.js.map",
     "787.4c501bc1.chunk.js.map": "/terix/static/js/787.4c501bc1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.42b80b86.css",
-    "static/js/main.ef30a04a.js"
+    "static/js/main.d9db9ea4.js"
   ]
 }
