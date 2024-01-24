@@ -1,4 +1,3 @@
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import "../App.css"
 
 
@@ -92,7 +91,7 @@ export function Footer() {
         <h2 id="footer-heading" className="sr-only">
             Footer
         </h2>
-        <div className="mx-auto max-w-md py-8 sm:max-w-3xl sm:py-20 lg:max-w-7xl">
+        <div className="mx-auto max-w-md py-8 sm:max-w-3xl sm:py-20 px-12 lg:max-w-7xl">
             <div className="xl:flex xl:flex-row justify-between">
                 <div className="space-y-8 xl:col-span-1">
                     <div className="mt-10 xl:mt-0">
@@ -147,7 +146,7 @@ export function Footer() {
                                 ))}
                             </ul>
                         </div>
-                        <div>
+                        <div className='mt-12 md:mt-0'>
                             <h3 className="text-base font-medium text-stone-700 italic footer-text-color">Company</h3>
                             <ul role="list" className="mt-4 space-y-4">
                                 {footerNavigation.company.map((item) => (
@@ -161,7 +160,7 @@ export function Footer() {
                         </div>
                     </div>
                     <div className="md:grid md:grid-cols-2 md:gap-8">
-                        <div className="mt-12 md:mt-0">
+                        <div className="md:mt-0">
                             <h3 className="text-base font-medium text-stone-700 italic footer-text-color">Support</h3>
                             <ul role="list" className="mt-4 space-y-4">
                                 {footerNavigation.support.map((item) => (

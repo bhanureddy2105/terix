@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import image from "../images/image.png"
@@ -26,6 +26,23 @@ function classNames(...classes) {
 
 export function HomePage() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setScreenWidth(window.innerWidth);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
+    const isLargeScreen = screenWidth >= 1024;
+    const isMediumScreen = screenWidth >= 768 && screenWidth < 1024;
+    const isSmallScreen = screenWidth < 768;
 
     return (
         <div className="bg-white">
@@ -204,7 +221,9 @@ export function HomePage() {
             </div>
 
             <div className='my-6 flex justify-center'>
-                <iframe width="1200" height="700" src="https://www.youtube.com/embed/nYnbD7N4dhg?si=Cir0XZoHQTqzKPYr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                {isLargeScreen && <iframe width="1100" height="700" src="https://www.youtube.com/embed/nYnbD7N4dhg?si=Cir0XZoHQTqzKPYr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>}
+                {isMediumScreen && <iframe width="700" height="400" src="https://www.youtube.com/embed/nYnbD7N4dhg?si=Cir0XZoHQTqzKPYr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>}
+                {isSmallScreen && <iframe width="350" height="200" src="https://www.youtube.com/embed/nYnbD7N4dhg?si=Cir0XZoHQTqzKPYr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>}
             </div>
 
             <div className='my-6'>
@@ -219,10 +238,6 @@ export function HomePage() {
             <Team></Team>
 
             <Footer></Footer>
-
-
-
-            {/* https://tailwindui.com/components/marketing/page-examples/about-pages?include=archived */}
 
 
         </div>
