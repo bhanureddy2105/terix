@@ -8,7 +8,19 @@
 }
 
 .card-color {
-  background-color: #DEECF0;
+  /* background-color: #DEECF0; */
+  background-color: #D3A1CA;
+  width: 48% !important;
+}
+
+.card-image {
+  width: 410px;
+  height: 341px;
+}
+
+.someinfo-div {
+  background: linear-gradient(99.37deg, rgba(209, 143, 195, 0.76) -1.76%, rgba(76, 20, 87, 0.89) 124.11%);
+
 }
 
 .footer-text-color {
@@ -18,16 +30,159 @@
 .team-color {
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 550;
+  font-weight: 450;
   font-size: 96px;
   line-height: 116px;
   letter-spacing: 0.40em;
 
-  background: linear-gradient(181.21deg, #7932DB 1.04%, rgba(58, 54, 64, 0) 98.96%);
+  background: linear-gradient(181.21deg, #EDCEEF 1.04%, rgba(211, 205, 219, 0) 98.96%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   transform: rotate(-90deg);
+}
+
+.home-heading {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 55px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #FFFCFC;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.vision-heading {
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 58px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #3C2B47;
+}
+
+.video-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: #362D2D;
+}
+
+.video-paragraph {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: #000000;
+}
+
+.card-paragraph {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: #000000;
+}
+
+.vision-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 42px;
+  line-height: 77px;
+  letter-spacing: 0.15em;
+  background: linear-gradient(179.39deg, #8031FF 0.53%, #AF0A8F 150.87%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.vision-subtext {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 42px;
+  line-height: 77px;
+  letter-spacing: 0.15em;
+  background: linear-gradient(179.39deg, #8031FF 0.53%, #AF0A8F 150.87%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  opacity: 0.35;
+}
+
+.snowman {
+  position: relative;
+  width: 200px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  top : 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  height: 250px;
+  max-width: 400px !important;
+}
+
+
+.arrow-color{
+  color: #7E2ECE;
+}
+
+
+.top {
+  position: absolute;
+  top: 0;
+  left: 70%;
+  transform: translateX(-50%);
+  z-index: 2;
+  height: 150px;
+  max-width: 300px !important;
+}
+
+.vision-div {
+  /* background-color: #EDD2B9; */
+  background: rgba(237, 210, 185, 0.5);
+}
+
+.homepage {
+  background: radial-gradient(50% 50% at 50% 50%, #382842 0%, #1E1224 100%);
+}
+
+.team-card {
+  background: linear-gradient(180deg, #402740 0%, #1F1325 100%);
+}
+
+.learn-more-btn {
+  width: 190px;
+  height: 50px;
+  background: linear-gradient(93.96deg, #7932DB 0%, #931785 100%);
+}
+
+.read-more-btn {
+  width: 190px;
+  height: 50px;
+  background: linear-gradient(93.96deg, #7932DB 0%, #931785 100%);
 }
 
 @media (prefers-reduced-motion: no-preference) {

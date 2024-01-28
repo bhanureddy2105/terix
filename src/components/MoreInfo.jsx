@@ -1,15 +1,12 @@
-import { useState } from 'react'
-import Pipeline from "../Svg/pipeline.svg"
-import Deep from "../Svg/deep-learning.svg"
-import Research from "../Svg/research.svg"
-import Bio from "../Svg/bio.svg"
+import Pipeline from "../images/pipeline.png"
+import Deep from "../images/deep.png"
+import Research from "../images/research.png"
+import Bio from "../images/bio.png"
 import '../App.css'
+import { ArrowLeftCircleIcon, ArrowLeftIcon, ArrowRightCircleIcon, ArrowRightIcon } from "@heroicons/react/24/outline"
+import { useState } from "react"
 
 
-const frequencies = [
-    { value: 'monthly', label: 'Monthly', priceSuffix: '/month' },
-    { value: 'annually', label: 'Annually', priceSuffix: '/year' },
-]
 const tiers = [
     {
         name: 'synthetic biology',
@@ -17,7 +14,7 @@ const tiers = [
         href: '#',
         image: Bio,
         price: { monthly: '$15', annually: '$144' },
-        description: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.',
+        description: 'Building new-life with consciousness of the microbiome, positioned to gain insights into age-old diseases.',
     },
     {
         name: 'deep learning',
@@ -25,7 +22,7 @@ const tiers = [
         href: '#',
         image: Deep,
         price: { monthly: '$30', annually: '$288' },
-        description: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.',
+        description: 'Investigating trends in user data using patterns found over 10,000 biological data points, providing personalized insight.',
     },
     {
         name: 'Pipeline',
@@ -51,47 +48,59 @@ function classNames(...classes) {
 }
 
 export function MoreInfo() {
-    const [frequency, setFrequency] = useState(frequencies[0])
+
+    const handleScroll = (direction) => {
+        const container = document.getElementById('scrollContainer');
+        const scrollAmount = 200;
+
+        if (direction === 'left') {
+            container.scrollLeft -= scrollAmount;
+        } else {
+            container.scrollLeft += scrollAmount;
+        }
+
+    };
 
     return (
-        <div className="bg-white py-24 sm:py-32">
-            <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                <div className="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 md:max-w-2xl md:grid-cols-2 lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-4">
+        <div className="bg-white py-16 sm:py-32">
+            <div className="mx-12">
+                <div id="scrollContainer" className="mt-10 flex gap-8 overflow-x-auto">
                     {tiers.map((tier) => (
                         <div
                             key={tier.id}
                             className={classNames(
                                 tier?.mostPopular ? 'ring-2 ring-indigo-600' : 'ring-1 ring-gray-200',
-                                'rounded-3xl p-8', 'card-color'
+                                'py-36 px-20', 'card-color', 'flex flex-col justify-center'
                             )}
+                            style={{ flex: '0 0 40%' }}
                         >
-                            <h3
-                                id={tier.id}
-                                className={classNames(
-                                    tier?.mostPopular ? 'text-indigo-600' : 'text-gray-900',
-                                    'text-lg font-semibold leading-8', 'flex justify-center'
-                                )}
-                            >
-                                {tier.name.toUpperCase()}
-                            </h3>
                             <img className='' src={tier.image} alt="" srcset="" />
-                            <p className="mt-4 text-sm leading-6">{tier.description}</p>
+                            <p className="mt-12 card-paragraph font-semibold">{tier.description}</p>
                             <a
                                 href={tier.href}
                                 aria-describedby={tier.id}
-                                className={classNames(
-                                    tier.mostPopular
-                                        ? 'bg-indigo-600 text-white shadow-sm hover:bg-indigo-500'
-                                        : 'text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300',
-                                    'mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
-                                )}
+                                className='mt-6 block rounded-md py-2 px-3
+                                    text-center text-sm font-semibold leading-6 rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50
+                                    focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
                             >
-                                Read More
+                                <div className="flex flex-row justify-center">
+                                    {tier.name.toUpperCase()}
+                                    <ArrowRightIcon className="h-6 w-6 ml-2"></ArrowRightIcon>
+                                </div>
                             </a>
                         </div>
                     ))}
                 </div>
             </div>
+            <div className="flex flex-row justify-center items-center mt-12">
+                <div className="w-12 h-12 rounded-full shadow-md px-2 py-3 mr-8">
+                    <ArrowLeftIcon onClick={() => handleScroll('left')} className="arrow-color h-6 w-8 mr-5 cursor-pointer"></ArrowLeftIcon>
+                </div>
+                <div className="w-12 h-12 rounded-full shadow-md px-2 py-3">
+                <ArrowRightIcon onClick={() => handleScroll('right')} className="arrow-color h-6 w-8 cursor-pointer"></ArrowRightIcon>
+                </div>
+            </div>
         </div>
+
     )
 }
