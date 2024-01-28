@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/terix/static/css/main.42b80b86.css",
-    "main.js": "/terix/static/js/main.d9db9ea4.js",
+    "main.css": "/terix/static/css/main.37baae0e.css",
+    "main.js": "/terix/static/js/main.e79a3e30.js",
     "static/js/787.4c501bc1.chunk.js": "/terix/static/js/787.4c501bc1.chunk.js",
-    "static/media/pipeline.svg": "/terix/static/media/pipeline.f7f802f944045a47e19b7d8696ce9b5a.svg",
-    "static/media/bio.svg": "/terix/static/media/bio.6273b68c1144f83878712bc9bef53e75.svg",
-    "static/media/deep-learning.svg": "/terix/static/media/deep-learning.a449881e269510ca38395efb9d3de9e9.svg",
-    "static/media/research.svg": "/terix/static/media/research.12004a974e612fa595a170f5edb5e4a2.svg",
+    "static/media/home-1.png": "/terix/static/media/home-1.377dd1a8805d284db4ed.png",
     "static/media/ceo.png": "/terix/static/media/ceo.79301ec6d99659469692.png",
     "static/media/co-founder.png": "/terix/static/media/co-founder.e2918470f1864998c726.png",
+    "static/media/home.png": "/terix/static/media/home.fc174e7ed6c15f85add7.png",
+    "static/media/research.png": "/terix/static/media/research.1ef7f326fd1bcdfd2f83.png",
+    "static/media/deep.png": "/terix/static/media/deep.6e8bf4c577d549d4921b.png",
+    "static/media/pipeline.png": "/terix/static/media/pipeline.83f58be6a2f235c96aa8.png",
+    "static/media/bio.png": "/terix/static/media/bio.22bf6115550df09e4ba5.png",
     "static/media/image.png": "/terix/static/media/image.d8d73c726b5782e381c5.png",
+    "static/media/down-pipe.svg": "/terix/static/media/down-pipe.63fc8bbc7e90c58c2e60338331d47254.svg",
+    "static/media/pipe.svg": "/terix/static/media/pipe.62c7554ffb2509dc5a4fbdb391b2c156.svg",
     "index.html": "/terix/index.html",
-    "main.42b80b86.css.map": "/terix/static/css/main.42b80b86.css.map",
-    "main.d9db9ea4.js.map": "/terix/static/js/main.d9db9ea4.js.map",
+    "main.37baae0e.css.map": "/terix/static/css/main.37baae0e.css.map",
+    "main.e79a3e30.js.map": "/terix/static/js/main.e79a3e30.js.map",
     "787.4c501bc1.chunk.js.map": "/terix/static/js/787.4c501bc1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42b80b86.css",
-    "static/js/main.d9db9ea4.js"
+    "static/css/main.37baae0e.css",
+    "static/js/main.e79a3e30.js"
   ]
 }
