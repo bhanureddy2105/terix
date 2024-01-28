@@ -12,7 +12,7 @@ const navigation = [
     { name: 'Pipeline', href: '#' },
     { name: 'Science', href: '#' },
     { name: 'Investors', href: '#' },
-    { name: 'Our Team', href: '#' },
+    { name: 'Our Team', href: '#/team' },
     { name: 'Research', href: '#' },
     { name: 'Media', href: '#' },
 ]

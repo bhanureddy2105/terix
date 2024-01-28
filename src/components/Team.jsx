@@ -70,12 +70,12 @@ export default function Team() {
 
 
                     ))}
-                                    <a href="#" className="rounded-md read-more-btn p-3 text-sm font-semibold text-white shadow-sm">
-                    <div className="flex flex-row justify-center items-center">
-                        Read More
-                        <ChevronRightIcon className="h-6 w-6"></ChevronRightIcon>
-                    </div>
-                </a>
+                    <a href="#/team" className="rounded-md read-more-btn p-3 text-sm font-semibold text-white shadow-sm">
+                        <div className="flex flex-row justify-center items-center">
+                            Read More
+                            <ChevronRightIcon className="h-6 w-6"></ChevronRightIcon>
+                        </div>
+                    </a>
                 </ul>
 
             </div>

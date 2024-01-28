@@ -136,7 +136,7 @@
 .bottom {
   position: absolute;
   bottom: 0;
-  top : 25%;
+  top: 25%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
@@ -145,7 +145,7 @@
 }
 
 
-.arrow-color{
+.arrow-color {
   color: #7E2ECE;
 }
 
@@ -183,6 +183,46 @@
   width: 190px;
   height: 50px;
   background: linear-gradient(93.96deg, #7932DB 0%, #931785 100%);
+}
+
+.teams-page {
+  background: linear-gradient(180deg, #3C2B47 -3.26%, rgba(217, 217, 217, 0) 100%);
+}
+
+.team-page-heading {
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 86px;
+  text-align: center;
+  letter-spacing: 0.29em;
+  color: #3C2B47;
+
+}
+
+.founder-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.card-1 {
+  background: linear-gradient(177.95deg, #9961D0 1.73%, #FFFFFF 94.83%);
+}
+
+.card-2 {
+  background: linear-gradient(180deg, #DB6AC7 0%, rgba(209, 206, 210, 0) 100%);
+}
+
+.research-card{
+  background: #DED3DB;
 }
 
 @media (prefers-reduced-motion: no-preference) {
