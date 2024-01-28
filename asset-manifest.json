@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/terix/static/css/main.37baae0e.css",
-    "main.js": "/terix/static/js/main.e79a3e30.js",
+    "main.css": "/terix/static/css/main.d23c4d7a.css",
+    "main.js": "/terix/static/js/main.692f364a.js",
     "static/js/787.4c501bc1.chunk.js": "/terix/static/js/787.4c501bc1.chunk.js",
+    "static/media/teams-image.png": "/terix/static/media/teams-image.0e8c399e828a5e02593e.png",
     "static/media/home-1.png": "/terix/static/media/home-1.377dd1a8805d284db4ed.png",
     "static/media/ceo.png": "/terix/static/media/ceo.79301ec6d99659469692.png",
     "static/media/co-founder.png": "/terix/static/media/co-founder.e2918470f1864998c726.png",
@@ -15,12 +16,12 @@
     "static/media/down-pipe.svg": "/terix/static/media/down-pipe.63fc8bbc7e90c58c2e60338331d47254.svg",
     "static/media/pipe.svg": "/terix/static/media/pipe.62c7554ffb2509dc5a4fbdb391b2c156.svg",
     "index.html": "/terix/index.html",
-    "main.37baae0e.css.map": "/terix/static/css/main.37baae0e.css.map",
-    "main.e79a3e30.js.map": "/terix/static/js/main.e79a3e30.js.map",
+    "main.d23c4d7a.css.map": "/terix/static/css/main.d23c4d7a.css.map",
+    "main.692f364a.js.map": "/terix/static/js/main.692f364a.js.map",
     "787.4c501bc1.chunk.js.map": "/terix/static/js/787.4c501bc1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37baae0e.css",
-    "static/js/main.e79a3e30.js"
+    "static/css/main.d23c4d7a.css",
+    "static/js/main.692f364a.js"
   ]
 }
