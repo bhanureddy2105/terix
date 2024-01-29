@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/terix/static/css/main.2756ee95.css",
-    "main.js": "/terix/static/js/main.b6daac1d.js",
+    "main.js": "/terix/static/js/main.bce291b3.js",
     "static/js/787.4c501bc1.chunk.js": "/terix/static/js/787.4c501bc1.chunk.js",
     "static/media/science-page.png": "/terix/static/media/science-page.04496842e85b933ee175.png",
     "static/media/publication-1.png": "/terix/static/media/publication-1.31b2b1881edf3f02f778.png",
@@ -25,11 +25,11 @@
     "static/media/pipe.svg": "/terix/static/media/pipe.62c7554ffb2509dc5a4fbdb391b2c156.svg",
     "index.html": "/terix/index.html",
     "main.2756ee95.css.map": "/terix/static/css/main.2756ee95.css.map",
-    "main.b6daac1d.js.map": "/terix/static/js/main.b6daac1d.js.map",
+    "main.bce291b3.js.map": "/terix/static/js/main.bce291b3.js.map",
     "787.4c501bc1.chunk.js.map": "/terix/static/js/787.4c501bc1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2756ee95.css",
-    "static/js/main.b6daac1d.js"
+    "static/js/main.bce291b3.js"
   ]
 }
