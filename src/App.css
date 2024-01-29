@@ -221,8 +221,85 @@
   background: linear-gradient(180deg, #DB6AC7 0%, rgba(209, 206, 210, 0) 100%);
 }
 
-.research-card{
+.research-card {
   background: #DED3DB;
+}
+
+.pipeline-page-para {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 19.375px;
+  line-height: 32px;
+  letter-spacing: -0.6px;
+  color: #FFFFFF;
+}
+
+.biosensors-heading {
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 63px;
+  color: #000000;
+}
+
+.slider {
+  width: 85%;
+}
+
+.slider-div {
+  background: #E5D9F1;
+}
+
+
+.slider-div1 {
+  background: #F1D5E8;
+}
+
+
+.slider-div2 {
+  background: #F7ECE0;
+}
+
+.slider1 {
+  -webkit-appearance: none;
+  background: #9E7FCF;
+  border-radius: 5px;
+  height: 10px;
+  outline: none;
+}
+
+.slider1::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: #3C2B47;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider2 {
+  -webkit-appearance: none;
+  background: #DC79C0;
+  border-radius: 5px;
+  height: 10px;
+  outline: none;
+}
+
+.slider2::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+.slider3 {
+  -webkit-appearance: none;
+  background: #EEC18F;
+  border-radius: 5px;
+  height: 10px;
+  outline: none;
+}
+
+.slider3::-webkit-slider-thumb {
+  -webkit-appearance: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {

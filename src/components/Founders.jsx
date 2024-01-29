@@ -23,7 +23,7 @@ export function Founders(){
     return(
         <div>
             <h1 className="founder-heading">FOUNDERS</h1>
-            <div className="flex justify-between m-24 gap-x-10">
+            <div className="flex justify-between lg:m-24 sm:my-24 my-24 gap-x-10">
                     {people.map((person) => (
                         <div className='card-1 shadow-md w-1/2'>
                             <div className="relative">

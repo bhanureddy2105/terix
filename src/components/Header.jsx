@@ -9,12 +9,12 @@ import Logo from '../images/logo.png'
 
 const navigation = [
     { name: 'Home', href: '#' },
-    { name: 'Pipeline', href: '#' },
+    { name: 'Pipeline', href: '#/pipeline' },
     { name: 'Science', href: '#' },
     { name: 'Investors', href: '#' },
     { name: 'Our Team', href: '#/team' },
     { name: 'Research', href: '#' },
-    { name: 'Media', href: '#' },
+    { name: 'Media', href: '#/media' },
 ]
 
 function classNames(...classes) {
