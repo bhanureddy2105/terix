@@ -1,12 +1,33 @@
 import { ArrowRightIcon } from "@heroicons/react/24/outline"
 import cardImage from "../images/card-image.png"
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+
 
 
 export function SyntheticBiology() {
+
+    const location = useLocation();
+
+    // Scroll to the specified element when the location changes
+    useEffect(() => {
+        const elementId = location.hash.substring(1);
+        const targetElement = document.getElementById(elementId);
+
+        if (targetElement) {
+            targetElement.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start',
+            });
+        }
+    }, [location.hash]);
+
+
+
     return (
         <div className="p-16">
             <div>
-                <div className="flex flex-col">
+                <div id="synthetic" className="flex flex-col">
                     <h1 className="text-center synthetic-heading">SYNTHETIC BIOLOGY</h1>
                     <p className="synthetic-para py-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
                 </div>
@@ -116,7 +137,7 @@ export function SyntheticBiology() {
 
 
             <div>
-                <div className="flex flex-col">
+                <div id="deep-learning" className="flex flex-col">
                     <h1 className="text-center synthetic-heading">DEEP LEARNING</h1>
                     <p className="synthetic-para py-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
                 </div>

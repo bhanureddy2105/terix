@@ -4,7 +4,6 @@ import { Footer } from "./Footer"
 import { Biosensors } from "./Biosensors"
 
 
-
 export function PipelinePage() {
     return (
         <div className="bg-white">

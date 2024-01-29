@@ -43,7 +43,7 @@ export default function Team() {
     const isLargeScreen = screenWidth >= 1300;
 
     return (
-        <div className="team-card py-12 md:py-24 lg:py-20">
+        <div id="team" className="team-card py-12 md:py-24 lg:py-20">
             <img className="lg:-mt-24 -mt-20" src={Pipe} alt="" srcset="" />
             <div className="mx-auto my-12 grid max-w-7xl grid-cols-1 gap-y-20 px-12 lg:px-16 xl:grid-cols-3">
                 {isLargeScreen && <h2 className='team-color'>TEAM</h2>}

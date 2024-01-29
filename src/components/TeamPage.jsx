@@ -1,11 +1,23 @@
+import { useEffect } from "react"
 import { Footer } from "./Footer"
 import { Founders } from "./Founders"
 import Header from "./Header"
 import { Research } from "./Research"
 
 export function TeamPage() {
+    useEffect(() => {
+        const targetElement = document.getElementById("team");
+
+        if (targetElement) {
+            targetElement.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start',
+            });
+        }
+    }, [])
+
     return (
-        <div className="">
+        <div id="team" className="">
             <Header></Header>
             <div className="teams-page relative isolate pt-14">
                 <div className="mx-auto max-w-5xl pt-24 pb-16">

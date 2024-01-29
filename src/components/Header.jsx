@@ -69,7 +69,7 @@ export default function Header() {
                                         <Menu.Item>
                                             {({ active }) => (
                                                 <a
-                                                    href="#/science"
+                                                    href="#/science/#synthetic"
                                                     className={classNames(
                                                         active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                                         'block px-4 py-2 text-sm'
@@ -82,7 +82,7 @@ export default function Header() {
                                         <Menu.Item>
                                             {({ active }) => (
                                                 <a
-                                                    href="#/science"
+                                                    href="#/science/#deep-learning"
                                                     className={classNames(
                                                         active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                                         'block px-4 py-2 text-sm'
