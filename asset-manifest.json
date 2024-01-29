@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/terix/static/css/main.6ab62c2b.css",
+    "main.css": "/terix/static/css/main.6368bd47.css",
     "main.js": "/terix/static/js/main.5bafb82f.js",
     "static/js/787.4c501bc1.chunk.js": "/terix/static/js/787.4c501bc1.chunk.js",
     "static/media/science-page.png": "/terix/static/media/science-page.04496842e85b933ee175.png",
@@ -24,12 +24,12 @@
     "static/media/down-pipe.svg": "/terix/static/media/down-pipe.63fc8bbc7e90c58c2e60338331d47254.svg",
     "static/media/pipe.svg": "/terix/static/media/pipe.62c7554ffb2509dc5a4fbdb391b2c156.svg",
     "index.html": "/terix/index.html",
-    "main.6ab62c2b.css.map": "/terix/static/css/main.6ab62c2b.css.map",
+    "main.6368bd47.css.map": "/terix/static/css/main.6368bd47.css.map",
     "main.5bafb82f.js.map": "/terix/static/js/main.5bafb82f.js.map",
     "787.4c501bc1.chunk.js.map": "/terix/static/js/787.4c501bc1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ab62c2b.css",
+    "static/css/main.6368bd47.css",
     "static/js/main.5bafb82f.js"
   ]
 }
