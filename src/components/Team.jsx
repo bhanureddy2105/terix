@@ -58,7 +58,7 @@ export default function Team() {
                                     className="h-60 w-60 mx-auto rounded-lg"
                                     src={person.imageUrl} // Replace with your image source
                                     alt={person.name}
-                                    style={{ marginTop: '-2rem' }} // Adjust the negative margin to control the overlap
+                                    style={{ marginTop: '-4rem' }} // Adjust the negative margin to control the overlap
                                 />
                             </div>
                             <div className="px-12 py-4">

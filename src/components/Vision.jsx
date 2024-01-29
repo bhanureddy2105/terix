@@ -51,11 +51,11 @@ export default function Vision() {
                         <a className="cursor-pointer" onClick={topClick}>
                             <ChevronUpIcon className="h-16 w-16 mx-auto"></ChevronUpIcon>
                         </a>
-                        <div className="vision-subtext">{prevYear}</div>
+                        <div className="vision-subtext">{prevYear !="2028" ? prevYear : "2028-2030"}</div>
                         <div className="bg-white rounded-xl">
-                            <div className="vision-text">{currentYear}</div>
+                            <div className="vision-text">{currentYear !="2028" ? currentYear : "2028-2030"}</div>
                         </div>
-                        <div className="vision-subtext">{nextYear}</div>
+                        <div className="vision-subtext">{nextYear !="2028" ? nextYear : "2028-2030" }</div>
                         <a className="cursor-pointer" onClick={bottomClick}><ChevronDownIcon className="h-16 w-16 mx-auto"></ChevronDownIcon></a>
                     </div>
                     <p className="card-paragraph w-1/2">

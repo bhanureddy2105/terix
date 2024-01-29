@@ -1,7 +1,5 @@
 import image from "../images/image.png"
 import { MoreInfo } from './MoreInfo'
-import { SomeComponent } from './SomeComponent'
-import { Timeline } from './Timeline'
 import { Footer } from './Footer'
 import Team from './Team'
 import { Video } from './Video'

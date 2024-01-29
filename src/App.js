@@ -1,6 +1,7 @@
 import { HomePage } from './components/HomePage';
 import { MediaPage } from './components/MediaPage';
 import { PipelinePage } from './components/PipelinePage';
+import { SciencePage } from './components/SciencePage';
 import { TeamPage } from './components/TeamPage';
 import { Route, Routes , HashRouter } from 'react-router-dom';
 
@@ -15,6 +16,7 @@ function App() {
           <Route path="/team" element={<TeamPage />} />
           <Route path="/media" element={<MediaPage />} />
           <Route path="/pipeline" element={<PipelinePage />} />
+          <Route path="/science" element={<SciencePage />} />
           <Route path="*" element={<div>Not Found</div>} />
         </Routes>
       </HashRouter>
