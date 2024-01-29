@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/terix/static/css/main.42701517.css",
-    "main.js": "/terix/static/js/main.2a5ad9f4.js",
+    "main.css": "/terix/static/css/main.79ab7bd5.css",
+    "main.js": "/terix/static/js/main.f25ce742.js",
     "static/js/787.4c501bc1.chunk.js": "/terix/static/js/787.4c501bc1.chunk.js",
+    "static/media/science-page.png": "/terix/static/media/science-page.04496842e85b933ee175.png",
     "static/media/publication-1.png": "/terix/static/media/publication-1.31b2b1881edf3f02f778.png",
     "static/media/publication-2.png": "/terix/static/media/publication-2.e25fc510b144d98ef245.png",
     "static/media/teams-image.png": "/terix/static/media/teams-image.0e8c399e828a5e02593e.png",
     "static/media/home-1.png": "/terix/static/media/home-1.377dd1a8805d284db4ed.png",
     "static/media/ceo.png": "/terix/static/media/ceo.79301ec6d99659469692.png",
+    "static/media/card-image.png": "/terix/static/media/card-image.92696475c8454a927489.png",
     "static/media/co-founder.png": "/terix/static/media/co-founder.e2918470f1864998c726.png",
     "static/media/home.png": "/terix/static/media/home.fc174e7ed6c15f85add7.png",
     "static/media/research.png": "/terix/static/media/research.1ef7f326fd1bcdfd2f83.png",
     "static/media/deep.png": "/terix/static/media/deep.6e8bf4c577d549d4921b.png",
     "static/media/media-image.png": "/terix/static/media/media-image.44fe14466a9a3eee3500.png",
+    "static/media/TRX.png": "/terix/static/media/TRX.cf195bd2c2ea828c3380.png",
     "static/media/pipeline.png": "/terix/static/media/pipeline.83f58be6a2f235c96aa8.png",
     "static/media/bio.png": "/terix/static/media/bio.22bf6115550df09e4ba5.png",
     "static/media/Biosensor-image2.png": "/terix/static/media/Biosensor-image2.b5b71de1777187e9d02f.png",
@@ -21,12 +24,12 @@
     "static/media/down-pipe.svg": "/terix/static/media/down-pipe.63fc8bbc7e90c58c2e60338331d47254.svg",
     "static/media/pipe.svg": "/terix/static/media/pipe.62c7554ffb2509dc5a4fbdb391b2c156.svg",
     "index.html": "/terix/index.html",
-    "main.42701517.css.map": "/terix/static/css/main.42701517.css.map",
-    "main.2a5ad9f4.js.map": "/terix/static/js/main.2a5ad9f4.js.map",
+    "main.79ab7bd5.css.map": "/terix/static/css/main.79ab7bd5.css.map",
+    "main.f25ce742.js.map": "/terix/static/js/main.f25ce742.js.map",
     "787.4c501bc1.chunk.js.map": "/terix/static/js/787.4c501bc1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42701517.css",
-    "static/js/main.2a5ad9f4.js"
+    "static/css/main.79ab7bd5.css",
+    "static/js/main.f25ce742.js"
   ]
 }
