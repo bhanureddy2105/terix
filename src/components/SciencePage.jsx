@@ -34,17 +34,15 @@ export function SciencePage() {
                         <div className="w-1/3 mx-32">
                             <p className="text-center trx mb-12">adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, Lorem ipsum dolor sit amet</p>
                         </div>
-                        <a href="#" className="rounded-md request-btn p-3 mx-32 text-sm font-semibold shadow-sm">
-                                Request More Info
-                            </a>
+                        <a href="" className="rounded-md request-btn p-3 mx-32 text-sm font-semibold shadow-sm">
+                            Request More Info
+                        </a>
                     </div>
-
                     <img
                         src={Trx}
                         alt="Overlapping Image"
                         className="absolute top-32 left-1/2 w-1/4 h-1/3"
                     />
-
                     <div className="w-1/3 py-12" style={{ background: "#AA8FD6" }}>
                     </div>
                 </div>

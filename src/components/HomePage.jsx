@@ -48,19 +48,12 @@ export function HomePage() {
 
             <Video></Video>
             <MoreInfo></MoreInfo>
-            {/* <SomeComponent></SomeComponent> */}
             <div className="">
                 <Vision></Vision>
             </div>
             <Products></Products>
-
-            {/* <div className='bg-white flex justify-center'>
-                <Timeline></Timeline>
-            </div> */}
             <div className='my-20'></div>
-
             <Team></Team>
-
             <Footer></Footer>
 
 

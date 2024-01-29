@@ -11,9 +11,7 @@ const navigation = [
     { name: 'Home', href: '#' },
     { name: 'Pipeline', href: '#/pipeline' },
     { name: 'Science', href: '#' },
-    { name: 'Investors', href: '#' },
     { name: 'Our Team', href: '#/team' },
-    { name: 'Research', href: '#' },
     { name: 'Media', href: '#/media' },
 ]
 
@@ -30,12 +28,8 @@ export default function Header() {
                 <div className="flex lg:flex-1">
                     <a href="#" className="-m-1.5 p-1.5 text-md font-bold leading-6 text-slate-50">
                         <div className='flex'>
-                                <img
-                                    className="h-8 w-auto"
-                                    src={Logo}
-                                    alt=""
-                                />
-                            <div className='m-1'>TERIX</div>
+                            <img className="h-8 w-auto" src={Logo} alt="" />
+                            <div className='m-1 text-xl font'>TERIX</div>
                         </div>
                     </a>
                 </div>
@@ -51,11 +45,11 @@ export default function Header() {
                 </div>
                 <div className="hidden lg:flex lg:gap-x-12">
                     {navigation.map((item) => (
-                        item?.name !== 'Science' ? <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-slate-50">
+                        item?.name !== 'Science' ? <a key={item.name} href={item.href} className="text-base font font-semibold leading-6 text-slate-50">
                             {item.name}
                         </a> : <Menu as="div" className="relative text-left">
                             <div>
-                                <Menu.Button className="inline-flex w-full justify-center text-sm font-semibold text-slate-50">
+                                <Menu.Button className="inline-flex w-full justify-center font text-base font-semibold text-slate-50">
                                     {item?.name}
                                     <ChevronDownIcon className="-mr-1 h-5 w-5 text-gray-400" aria-hidden="true" />
                                 </Menu.Button>
@@ -115,10 +109,10 @@ export default function Header() {
                 <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
                         <a href="#" className="-m-1.5 p-1.5">
-                            <span className="sr-only">Your Company</span>
+                            <span className="sr-only">Terix</span>
                             <img
                                 className="h-8 w-auto"
-                                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                                src={Logo}
                                 alt=""
                             />
                         </a>
