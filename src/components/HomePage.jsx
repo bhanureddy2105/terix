@@ -30,7 +30,7 @@ export function HomePage() {
                                 REVOLUTIONIZING THE FUTURE OF MATERNAL HEALTHCARE.
                             </h1> */}
                             <h1 className="text-center home-heading">
-                                REVOLUTIONIZING THE FUTURE OF MATERNAL HEALTHCARE.
+                                REVOLUTIONIZING THE FUTURE OF MATERNAL HEALTHCARE
                             </h1>
                             <div className="mt-10 flex items-center justify-center gap-x-6">
                                 <a href="#" className="rounded-md learn-more-btn p-3 text-sm font-semibold text-white shadow-sm">
