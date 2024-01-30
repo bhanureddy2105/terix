@@ -11,7 +11,7 @@ export function PipelinePage() {
             <div className="homepage relative isolate pt-14">
                 <div className="mx-auto max-w-5xl py-32 sm:py-48 lg:pt-28 lg:pb-60">
                     <div className="text-center">
-                        <h1 className="text-center home-heading capitalize my-4">
+                        <h1 className="text-center pipe-heading uppercase my-4">
                             Resource Effective Pipeline for a Broad Range of Solutions
                         </h1>
                         <p className="pipeline-page-para my-8">Terix is developing a vast set of diagnostics, targeted towards biomarkers which influence adverse outcomes for maternal health.  Employing cutting-edge techniques across the disciplines of microbiology, synthetic biology, and genomics in high-grade facilities. </p>

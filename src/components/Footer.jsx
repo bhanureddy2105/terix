@@ -177,7 +177,7 @@ export function Footer() {
             </div>
             <div className="mt-12 border-t border-stone-200 pt-8">
                 <p className="text-base text-stone-400 xl:text-center">
-                    &copy; {year} Terix, Inc. All rights reserved.
+                    &copy; {year} Terix LLC. All rights reserved.
                 </p>
             </div>
         </div>

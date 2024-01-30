@@ -29,7 +29,7 @@ export default function Header() {
                     <a href="#" className="-m-1.5 p-1.5 text-md font-bold leading-6 text-slate-50">
                         <div className='flex'>
                             <img className="h-8 w-auto" src={Logo} alt="" />
-                            <div className='m-1 text-xl font'>TERIX</div>
+                            <div className='m-1 text-2xl font'>TERIX</div>
                         </div>
                     </a>
                 </div>
@@ -45,7 +45,7 @@ export default function Header() {
                 </div>
                 <div className="hidden lg:flex lg:gap-x-12">
                     {navigation.map((item) => (
-                        item?.name !== 'Science' ? <a key={item.name} href={item.href} className="text-base font font-semibold leading-6 text-slate-50">
+                        item?.name !== 'Science' ? <a key={item.name} href={item.href} className="text-base font font-medium leading-6 text-slate-50">
                             {item.name}
                         </a> : <Menu as="div" className="relative text-left">
                             <div>
@@ -72,7 +72,7 @@ export default function Header() {
                                                     href="#/science/#synthetic"
                                                     className={classNames(
                                                         active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                                                        'block px-4 py-2 text-sm'
+                                                        'block px-4 py-2 text-sm font-bold'
                                                     )}
                                                 >
                                                     Synthetic Biology
@@ -85,7 +85,7 @@ export default function Header() {
                                                     href="#/science/#deep-learning"
                                                     className={classNames(
                                                         active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                                                        'block px-4 py-2 text-sm'
+                                                        'block px-4 py-2 text-sm font-bold' 
                                                     )}
                                                 >
                                                     Deep Learning

@@ -24,7 +24,7 @@ export function Video() {
     return (
         <div className='flex flex-col justify-center'>
             <div className='lg:mx-52 lg:my-28 mx-12 my-8'>
-                <h3 className='video-heading mb-8'> Re-Purposing New-Age Technology for a Rapid, Low-Cost Diagnostics Pipeline</h3>
+                <h3 className='video-heading mb-8'> Re-purposing new-age technology for a rapid, low-cost diagnostics pipeline</h3>
                 <p className='video-paragraph'>Synthetic Biology provides a platform for the generation of cellular solutions through precise genetic editing for the development of patient-focused diagnostic solutions. Terix’s pipeline eliminates the need for billion dollar, high-attrition multi-stage assays by utilizing the fundamental units of life: DNA, RNA, and mRNA.</p>
             </div>
             <div className='mt-0 mb-6 flex justify-center'>

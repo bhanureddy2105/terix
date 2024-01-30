@@ -60,6 +60,7 @@
 }
 
 
+
 .vision-heading {
 
   font-family: 'Inter';
@@ -180,13 +181,14 @@
 .learn-more-btn {
   width: 190px;
   height: 50px;
-  background: linear-gradient(93.96deg, #7932DB 0%, #931785 100%);
+  background: linear-gradient(93.96deg, #A170E5 0%, #B327A3 100%);
 }
 
 .read-more-btn {
   width: 190px;
   height: 50px;
-  background: linear-gradient(93.96deg, #7932DB 0%, #931785 100%);
+  background: linear-gradient(93.96deg, #A170E5 0%, #B327A3 100%);
+
 }
 
 .teams-page {
@@ -194,7 +196,6 @@
 }
 
 .team-page-heading {
-
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
@@ -202,7 +203,7 @@
   line-height: 86px;
   text-align: center;
   letter-spacing: 0.29em;
-  color: #3C2B47;
+  color: #000000;
 
 }
 
@@ -229,13 +230,24 @@
   background: #DED3DB;
 }
 
+.pipe-heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 55px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #FFFCFC;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .pipeline-page-para {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 300;
   font-size: 19.375px;
   line-height: 32px;
-  letter-spacing: -0.6px;
+  letter-spacing: 0.05em;
   color: #FFFFFF;
 }
 
@@ -307,9 +319,7 @@
 }
 
 .science-card-color {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  background: linear-gradient(180.05deg, #f5abd8 16.57%, rgba(237, 127, 144, 0) 99.96%);
-  color: #3C2B47;
+  background: #D7A4CE;
 }
 
 .synthetic-heading {
