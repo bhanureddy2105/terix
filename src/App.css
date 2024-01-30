@@ -218,12 +218,23 @@
   color: #000000;
 }
 
-.card-1 {
+/* .card-1 {
   background: linear-gradient(177.95deg, #9961D0 1.73%, #FFFFFF 94.83%);
 }
 
 .card-2 {
   background: linear-gradient(180deg, #DB6AC7 0%, rgba(209, 206, 210, 0) 100%);
+} */
+
+.founder-bio {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: #646161;
 }
 
 .research-card {
@@ -320,6 +331,10 @@
 
 .science-card-color {
   background: #D7A4CE;
+}
+
+.science-card-color1 {
+  background: #C6AAE3;
 }
 
 .synthetic-heading {

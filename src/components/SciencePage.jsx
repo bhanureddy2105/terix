@@ -3,6 +3,7 @@ import Header from "./Header"
 import { SyntheticBiology } from "./SyntheticBiology"
 import Trx from "../images/TRX.png"
 import Science from "../images/science-page.png"
+import { DeepLearing } from "./Deeplearning"
 
 
 export function SciencePage() {
@@ -25,7 +26,10 @@ export function SciencePage() {
                 </div>
             </div>
 
+        <div className="p-16">
             <SyntheticBiology></SyntheticBiology>
+            <DeepLearing></DeepLearing>
+        </div>
 
             <div>
                 <h1 className="text-center synthetic-heading my-12">TRX-2643</h1>

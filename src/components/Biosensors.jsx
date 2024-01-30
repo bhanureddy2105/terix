@@ -1,6 +1,7 @@
 import Image1 from "../images/Biosensor-image1.png"
 import Image2 from "../images/Biosensor-image2.png"
 import "../App.css"
+import { Slider } from "./Slider"
 
 
 export function Biosensors() {
@@ -10,7 +11,7 @@ export function Biosensors() {
                 <h2 className="biosensors-heading mb-12">Whole-Cell Biosensors</h2>
                 <div className="flex flex-row justify-between items-center">
                     <div className="flex flex-col justify-between">
-                        <img src={Image1} className="h-10 w-32  mb-2" alt="" srcset="" />
+                        <img src={Image1} className="h-10 w-40  mb-2" alt="" srcset="" />
                         <p>Cell Based Biosensors</p>
                     </div>
                     <div className="flex flex-col">
@@ -51,37 +52,16 @@ export function Biosensors() {
                         </div>
                     </div>
                 </div>
-                <div className="rounded-md slider-div p-4 my-4">
-                    <div className="flex">
-                        <div className="ml-3 flex fklex-row justify-start items-center gap-x-10">
-                            <p className="text-sm">TRX-2643</p>
-                            <p>|</p>
-                        </div>
-                        <div className="w-1/3 mt-2 mx-8">
-                            <input type="range" min="1" max="100" value="100" className="slider slider1" />
-                        </div>
-                    </div>
-                </div>
-                <div className="rounded-md slider-div p-4 my-4">
-                    <div className="flex">
-                        <div className="ml-3 flex fklex-row justify-start items-center gap-x-10">
-                            <p className="text-sm">TRX-2644</p>
-                            <p>|</p>
-                        </div>
-                        <div className="w-1/3 mt-2 mx-8">
-                            <input type="range" min="1" max="100" value="100" className="w-1/3 slider1" />
-                        </div>
-                    </div>
-                </div>
+                <Slider name="TRX-2643" className="rounded-md slider-div p-4 mt-12" className1="slider slider1"></Slider>
+                <Slider name="TRX-2644" className="rounded-md slider-div p-4 mt-12" className1="w-1/3 slider1"></Slider>
             </div>
-
 
 
             <div className="flex flex-col p-16">
                 <h2 className="biosensors-heading mb-12">Out-Of-Cell Biosensors</h2>
                 <div className="flex flex-row justify-between items-center">
                     <div className="flex flex-col justify-between">
-                        <img src={Image2} className="h-10 w-32  mb-2" alt="" srcset="" />
+                        <img src={Image2} className="h-10 w-42  mb-2" alt="" srcset="" />
                         <p>Paper based Diagnostics</p>
                     </div>
                     <div className="flex flex-col">
@@ -126,17 +106,7 @@ export function Biosensors() {
                         </div>
                     </div>
                 </div>
-                <div className="rounded-md slider-div1 p-4 my-4">
-                    <div className="flex">
-                        <div className="ml-3 flex fklex-row justify-start items-center gap-x-10">
-                            <p className="text-sm">TRX-5872</p>
-                            <p>|</p>
-                        </div>
-                        <div className="w-1/3 mt-2 mx-8">
-                            <input type="range" min="1" max="100" value="100" className="slider2" />
-                        </div>
-                    </div>
-                </div>
+                <Slider name="TRX-5872" className="rounded-md slider-div1 p-4 mt-12" className1="slider2"></Slider>
             </div>
 
 
@@ -144,7 +114,7 @@ export function Biosensors() {
                 <h2 className="biosensors-heading mb-12">Wearable Biosensors</h2>
                 <div className="flex flex-row justify-between items-center">
                     <div className="flex flex-col justify-between">
-                        <img src={Image2} className="h-10 w-32  mb-2" alt="" srcset="" />
+                        <img src={Image2} className="h-10 w-42  mb-2" alt="" srcset="" />
                         <p>In-Vitro Technologies</p>
                     </div>
                     <div className="flex flex-col">
@@ -189,17 +159,7 @@ export function Biosensors() {
                         </div>
                     </div>
                 </div>
-                <div className="rounded-md slider-div2 p-4 my-4">
-                    <div className="flex">
-                        <div className="ml-3 flex fklex-row justify-start items-center gap-x-10">
-                            <p className="text-sm">TRX-6795</p>
-                            <p>|</p>
-                        </div>
-                        <div className="w-1/3 mt-2 mx-8">
-                            <input type="range" min="1" max="100" value="100" className="slider3" />
-                        </div>
-                    </div>
-                </div>
+                <Slider name="TRX-6795" className="rounded-md slider-div2 p-4 mt-12" className1="slider3"></Slider>
             </div>
         </>
 
