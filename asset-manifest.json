@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/terix/static/css/main.6368bd47.css",
-    "main.js": "/terix/static/js/main.5bafb82f.js",
+    "main.css": "/terix/static/css/main.45600b55.css",
+    "main.js": "/terix/static/js/main.e8f4b45e.js",
     "static/js/787.4c501bc1.chunk.js": "/terix/static/js/787.4c501bc1.chunk.js",
     "static/media/science-page.png": "/terix/static/media/science-page.04496842e85b933ee175.png",
     "static/media/publication-1.png": "/terix/static/media/publication-1.31b2b1881edf3f02f778.png",
@@ -21,15 +21,15 @@
     "static/media/Biosensor-image2.png": "/terix/static/media/Biosensor-image2.b5b71de1777187e9d02f.png",
     "static/media/Biosensor-image1.png": "/terix/static/media/Biosensor-image1.87e67fcf59637c0f43ba.png",
     "static/media/image.png": "/terix/static/media/image.d8d73c726b5782e381c5.png",
-    "static/media/down-pipe.svg": "/terix/static/media/down-pipe.63fc8bbc7e90c58c2e60338331d47254.svg",
-    "static/media/pipe.svg": "/terix/static/media/pipe.62c7554ffb2509dc5a4fbdb391b2c156.svg",
+    "static/media/down-pipe.svg": "/terix/static/media/down-pipe.c445db5e4e979a3e22cca8375fa0a415.svg",
+    "static/media/pipe.svg": "/terix/static/media/pipe.734b6d16ac207a102fb21eadfc1226cc.svg",
     "index.html": "/terix/index.html",
-    "main.6368bd47.css.map": "/terix/static/css/main.6368bd47.css.map",
-    "main.5bafb82f.js.map": "/terix/static/js/main.5bafb82f.js.map",
+    "main.45600b55.css.map": "/terix/static/css/main.45600b55.css.map",
+    "main.e8f4b45e.js.map": "/terix/static/js/main.e8f4b45e.js.map",
     "787.4c501bc1.chunk.js.map": "/terix/static/js/787.4c501bc1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6368bd47.css",
-    "static/js/main.5bafb82f.js"
+    "static/css/main.45600b55.css",
+    "static/js/main.e8f4b45e.js"
   ]
 }
