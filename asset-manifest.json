@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/terix/static/css/main.45600b55.css",
-    "main.js": "/terix/static/js/main.e8f4b45e.js",
+    "main.css": "/terix/static/css/main.3814a54a.css",
+    "main.js": "/terix/static/js/main.18710cfe.js",
     "static/js/787.4c501bc1.chunk.js": "/terix/static/js/787.4c501bc1.chunk.js",
     "static/media/science-page.png": "/terix/static/media/science-page.04496842e85b933ee175.png",
     "static/media/publication-1.png": "/terix/static/media/publication-1.31b2b1881edf3f02f778.png",
@@ -24,12 +24,12 @@
     "static/media/down-pipe.svg": "/terix/static/media/down-pipe.c445db5e4e979a3e22cca8375fa0a415.svg",
     "static/media/pipe.svg": "/terix/static/media/pipe.734b6d16ac207a102fb21eadfc1226cc.svg",
     "index.html": "/terix/index.html",
-    "main.45600b55.css.map": "/terix/static/css/main.45600b55.css.map",
-    "main.e8f4b45e.js.map": "/terix/static/js/main.e8f4b45e.js.map",
+    "main.3814a54a.css.map": "/terix/static/css/main.3814a54a.css.map",
+    "main.18710cfe.js.map": "/terix/static/js/main.18710cfe.js.map",
     "787.4c501bc1.chunk.js.map": "/terix/static/js/787.4c501bc1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45600b55.css",
-    "static/js/main.e8f4b45e.js"
+    "static/css/main.3814a54a.css",
+    "static/js/main.18710cfe.js"
   ]
 }
