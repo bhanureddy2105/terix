@@ -24,12 +24,12 @@ export function SyntheticBiology() {
         <div>
             <div id="synthetic" className="flex flex-col">
                 <h1 className="text-center synthetic-heading">SYNTHETIC BIOLOGY</h1>
-                <p className="synthetic-para py-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
+                <p className="synthetic-para py-16">Discover the intricacies of Terix's whole-cell biosensors utilizing CRISPR/Cas9 to endow stem cells with targeted detection capabilities, embodying biocompatibility and nanotechnological innovation.</p>
             </div>
             <div className="flex flex-row justify-between gap-x-36 mt-12 mb-48">
                 <div className="flex flex-col w-1/2">
                     <h3 className="synthetic-subheading mb-4">Whole-Cell Bio Sensors</h3>
-                    <p className="synthetic-para">Terix is leveraging CRSIPR / Cas9 technology to re-program stem cells, giving them consciousness about biological targets of interest. Biocompatibility is at the heart of our innovation, with non-invasive nanotechnology being used to develop lightweight and flexible dynamics in a novel manner.</p>
+                    <p className="synthetic-para">Examine the transformative potential of Terix's CRISPR/Cas9 enhanced whole-cell biosensors, engineered for ultra-sensitive detection of pathophysiological biomarkers, heralding a new era in proactive maternal health management.</p>
                 </div>
                 <div className="flex flex-row justify-start gap-x-36">
                     <ScienceCard date="January 14, 2023"

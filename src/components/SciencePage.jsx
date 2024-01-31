@@ -36,7 +36,7 @@ export function SciencePage() {
                 <div className="flex flex-row justify-between relative">
                     <div className="w-2/3 pt-40 pb-80" style={{ background: "#D3A1CA" }}>
                         <div className="w-1/3 mx-32">
-                            <p className="text-center trx mb-12">adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, Lorem ipsum dolor sit amet</p>
+                            <p className="text-center trx mb-12">TRX-2643 represents Terix's latest foray into the avant-garde of precision medicine, encapsulating a synthesized bioactive ligand designed for selective modulation of epigenetic transcription factors. Developed through an innovative CRISPR-mediated synthetic pathway, this compound precisely targets histone methylation processes, disrupting aberrant gene silencing mechanisms linked to gestational diabetes mellitus. The utilization of high-throughput screening and next-generation sequencing in its development underscores its potential as a targeted therapeutic agent, paving the way for personalized treatment modalities in maternal-fetal medicine.</p>
                         </div>
                         <a href="" className="rounded-md request-btn p-3 mx-32 text-sm font-semibold shadow-sm">
                             Request More Info

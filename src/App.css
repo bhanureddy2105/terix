@@ -98,8 +98,19 @@
 .card-paragraph {
   font-family: 'Inter';
   font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: #000000;
+}
+
+.card-paragraph-desc {
+  font-family: 'Inter';
+  font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 150%;
   text-align: center;
   letter-spacing: 0.07em;

@@ -5,9 +5,9 @@ export function Founders(){
     const people = [
         {
             name: 'Abesalom Webb',
-            role: 'Co-Founder, CEO TERIX',
+            role: 'Co-Founder, CFO, CEO TERIX',
             imageUrl: TeamsImage,
-            bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in luctus leo. Duis finibus fringilla libero, sit amet varius lectus bibendum eu.',
+            bio: 'Venture Capitalist, Published Researcher, Financial Manager, Portfolio Company Mentor, Board Member, Bestselling Author, Management Consultant.',
             xUrl: '#',
             color:"#BEA3DA",
             linkedinUrl: '#',
@@ -16,7 +16,7 @@ export function Founders(){
             name: 'Khartik Uppalapati',
             role: 'Co-Founder, CRO, CTO TERIX',
             imageUrl: TeamsImage,
-            bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in luctus leo. Duis finibus fringilla libero, sit amet varius lectus bibendum eu.',
+            bio: 'Published Researcher, Bioengineer, Bioinformatician, Oncology Researcher, Lymphatics Researcher, Award-Winning Software Developer.',
             xUrl: '#',
             color:"#D7A4CE",
             linkedinUrl: '#',
