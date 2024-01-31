@@ -51,7 +51,7 @@ export function HomePage() {
             <div className="">
                 <Vision></Vision>
             </div>
-            <Products></Products>
+            {/* <Products></Products> */}
             <div className='my-20'></div>
             <Team></Team>
             <Footer></Footer>

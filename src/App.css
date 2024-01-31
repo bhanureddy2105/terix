@@ -59,8 +59,6 @@
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-
-
 .vision-heading {
 
   font-family: 'Inter';
@@ -93,6 +91,39 @@
   text-align: center;
   letter-spacing: 0.07em;
   color: #000000;
+}
+
+.home-cards-paragraph {
+  color: #000000;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: .07em;
+  line-height: 150%;
+  text-align: center;
+}
+
+.science-page-image {
+  width: 24%;
+  height: 28%;
+  left: 62%;
+  top: 12rem;
+}
+
+.more-info {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: 0.15em;
+
+  background: linear-gradient(90deg, #956FD2 -2.42%, #D858A6 92.95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 .card-paragraph {

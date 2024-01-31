@@ -1,7 +1,6 @@
 import Pipeline from "../images/pipeline.png"
-import Deep from "../images/deep.png"
 import Research from "../images/research.png"
-import Bio from "../images/bio.png"
+import Product from "../images/product.png"
 import '../App.css'
 import { ArrowLeftCircleIcon, ArrowLeftIcon, ArrowRightCircleIcon, ArrowRightIcon } from "@heroicons/react/24/outline"
 import { useState } from "react"
@@ -9,37 +8,25 @@ import { useState } from "react"
 
 const tiers = [
     {
-        name: 'synthetic biology',
-        id: 'tier-bio',
+        name: 'See more',
+        id: 'tier-seemore',
         href: '#',
-        image: Bio,
-        price: { monthly: '$15', annually: '$144' },
-        description: 'Building new-life with consciousness of the microbiome, positioned to gain insights into age-old diseases.',
-    },
-    {
-        name: 'deep learning',
-        id: 'tier-deep',
-        href: '#',
-        image: Deep,
-        price: { monthly: '$30', annually: '$288' },
-        description: 'Investigating trends in user data using patterns found over 10,000 biological data points, providing personalized insight.',
+        image: Product,
+        description: "Introducing TRX-2643: Revolutionizing Maternal-Fetal Medicine with Precision! Harnessing CRISPR Innovation and Next-Gen Sequencing to Combat Gestational Diabetes. ",
     },
     {
         name: 'Pipeline',
         id: 'tier-pipeline',
         href: '#',
         image: Pipeline,
-        price: { monthly: '$60', annually: '$576' },
-        description: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.',
+        description: "Explore Terix's innovative pipeline, delivering next-generation diagnostics for safer pregnancies and healthier babies.",
     },
     {
         name: 'Research',
         id: 'tier-research',
         href: '#',
         image: Research,
-        price: { monthly: '$90', annually: '$864' },
-        description: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.',
-        mostPopular: false,
+        description: 'Delve into our groundbreaking research, where AI meets synthetic biology to redefine maternal healthcare.',
     },
 ]
 
@@ -70,12 +57,12 @@ export function MoreInfo() {
                             key={tier.id}
                             className={classNames(
                                 tier?.mostPopular ? 'ring-2 ring-indigo-600' : 'ring-1 ring-gray-200',
-                                'py-36 px-20', 'card-color', 'flex flex-col justify-center'
+                                'py-24 px-20', 'card-color', 'flex flex-col justify-center'
                             )}
                             style={{ flex: '0 0 40%' }}
                         >
-                            <img className='' src={tier.image} alt="" srcset="" />
-                            <p className="mt-12 card-paragraph font-semibold">{tier.description}</p>
+                            <img className='h-1/3 w-full' src={tier.image} alt="" srcset="" />
+                            <p className="mt-12 home-cards-paragraph font-semibold">{tier.description}</p>
                             <a
                                 href={tier.href}
                                 aria-describedby={tier.id}
@@ -97,7 +84,7 @@ export function MoreInfo() {
                     <ArrowLeftIcon onClick={() => handleScroll('left')} className="arrow-color h-6 w-8 mr-5 cursor-pointer"></ArrowLeftIcon>
                 </div>
                 <div className="w-12 h-12 rounded-full shadow-md px-2 py-3">
-                <ArrowRightIcon onClick={() => handleScroll('right')} className="arrow-color h-6 w-8 cursor-pointer"></ArrowRightIcon>
+                    <ArrowRightIcon onClick={() => handleScroll('right')} className="arrow-color h-6 w-8 cursor-pointer"></ArrowRightIcon>
                 </div>
             </div>
         </div>
