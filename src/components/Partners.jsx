@@ -21,7 +21,7 @@ export function Partners() {
         <div>
             <h1 className="founder-heading mt-20">OUR PARTNERS</h1>
 
-            <Carousel showThumbs={false} showStatus={false} renderArrowPrev={(clickHandler, hasPrev) => {
+            <Carousel autoPlay infiniteLoop showThumbs={false} showStatus={false} renderArrowPrev={(clickHandler, hasPrev) => {
                 return (
                     <div
                         className={`${hasPrev ? 'absolute' : 'hidden'

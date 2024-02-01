@@ -6,16 +6,16 @@ import { Research } from "./Research"
 import { Partners } from "./Partners"
 
 export function TeamPage() {
-    // useEffect(() => {
-    //     const targetElement = document.getElementById("team");
+    useEffect(() => {
+        const targetElement = document.getElementById("team");
 
-    //     if (targetElement) {
-    //         targetElement.scrollIntoView({
-    //             behavior: 'smooth',
-    //             block: 'start',
-    //         });
-    //     }
-    // }, [])
+        if (targetElement) {
+            targetElement.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start',
+            });
+        }
+    }, [])
 
     return (
         <div id="team" className="">
