@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/terix/static/css/main.7409a903.css",
-    "main.js": "/terix/static/js/main.82c03ad0.js",
+    "main.css": "/terix/static/css/main.82b64783.css",
+    "main.js": "/terix/static/js/main.e8872c7f.js",
     "static/js/787.4c501bc1.chunk.js": "/terix/static/js/787.4c501bc1.chunk.js",
     "static/media/science-page.png": "/terix/static/media/science-page.04496842e85b933ee175.png",
     "static/media/research.png": "/terix/static/media/research.4521ec99c5db10e2b557.png",
@@ -17,18 +17,28 @@
     "static/media/product.png": "/terix/static/media/product.68e17def52e678f1416b.png",
     "static/media/media-image.png": "/terix/static/media/media-image.44fe14466a9a3eee3500.png",
     "static/media/TRX.png": "/terix/static/media/TRX.cf195bd2c2ea828c3380.png",
+    "static/media/Sponser1.png": "/terix/static/media/Sponser1.8f025d119abd20f61128.png",
+    "static/media/Sponser2.png": "/terix/static/media/Sponser2.c13db5a596a5186620a8.png",
+    "static/media/Sponser5.png": "/terix/static/media/Sponser5.347172de5093b3a87101.png",
+    "static/media/Sponser10.png": "/terix/static/media/Sponser10.9ac079dbdecaa6748519.png",
+    "static/media/Sponser9.png": "/terix/static/media/Sponser9.d2822614c1208cbc7a54.png",
     "static/media/Biosensor-image2.png": "/terix/static/media/Biosensor-image2.b5b71de1777187e9d02f.png",
+    "static/media/Sponser4.png": "/terix/static/media/Sponser4.58147dae0530acfee712.png",
+    "static/media/Sponser8.png": "/terix/static/media/Sponser8.7da63997d0592a7c17b5.png",
+    "static/media/Sponser3.png": "/terix/static/media/Sponser3.df16d9c1fe50d7f2e2e3.png",
     "static/media/Biosensor-image1.png": "/terix/static/media/Biosensor-image1.87e67fcf59637c0f43ba.png",
+    "static/media/Sponser7.png": "/terix/static/media/Sponser7.9f40dc6196ae09626498.png",
     "static/media/image.png": "/terix/static/media/image.d8d73c726b5782e381c5.png",
+    "static/media/Sponser6.png": "/terix/static/media/Sponser6.9780f29cfc26695db4e5.png",
     "static/media/down-pipe.svg": "/terix/static/media/down-pipe.c445db5e4e979a3e22cca8375fa0a415.svg",
     "static/media/pipe.svg": "/terix/static/media/pipe.734b6d16ac207a102fb21eadfc1226cc.svg",
     "index.html": "/terix/index.html",
-    "main.7409a903.css.map": "/terix/static/css/main.7409a903.css.map",
-    "main.82c03ad0.js.map": "/terix/static/js/main.82c03ad0.js.map",
+    "main.82b64783.css.map": "/terix/static/css/main.82b64783.css.map",
+    "main.e8872c7f.js.map": "/terix/static/js/main.e8872c7f.js.map",
     "787.4c501bc1.chunk.js.map": "/terix/static/js/787.4c501bc1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7409a903.css",
-    "static/js/main.82c03ad0.js"
+    "static/css/main.82b64783.css",
+    "static/js/main.e8872c7f.js"
   ]
 }
