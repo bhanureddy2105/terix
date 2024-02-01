@@ -396,7 +396,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
-  text-align: justify;
+  /* text-align: justify; */
   letter-spacing: 0.05em;
   color: #000000;
 }

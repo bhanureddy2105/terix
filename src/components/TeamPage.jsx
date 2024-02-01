@@ -3,18 +3,19 @@ import { Footer } from "./Footer"
 import { Founders } from "./Founders"
 import Header from "./Header"
 import { Research } from "./Research"
+import { Partners } from "./Partners"
 
 export function TeamPage() {
-    useEffect(() => {
-        const targetElement = document.getElementById("team");
+    // useEffect(() => {
+    //     const targetElement = document.getElementById("team");
 
-        if (targetElement) {
-            targetElement.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start',
-            });
-        }
-    }, [])
+    //     if (targetElement) {
+    //         targetElement.scrollIntoView({
+    //             behavior: 'smooth',
+    //             block: 'start',
+    //         });
+    //     }
+    // }, [])
 
     return (
         <div id="team" className="">
@@ -30,6 +31,10 @@ export function TeamPage() {
             </div>
             <Founders></Founders>
             <Research></Research>
+            <div className="mt-40">
+                <Partners></Partners>
+            </div>
+
             <div className="my-40"></div>
             <Footer></Footer>
         </div>
