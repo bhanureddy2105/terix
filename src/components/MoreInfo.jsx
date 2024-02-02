@@ -1,6 +1,8 @@
-import Pipeline from "../images/pipeline.png"
+import Pipeline from "../images/pipeline(1).png"
+import Deep from "../images/deep(1).png"
 import Research from "../images/research.png"
-import Product from "../images/product.png"
+import Product from "../images/product(1).png"
+import Synthetic from "../images/synthetic.png"
 import '../App.css'
 import { ArrowLeftCircleIcon, ArrowLeftIcon, ArrowRightCircleIcon, ArrowRightIcon } from "@heroicons/react/24/outline"
 import { useState } from "react"
@@ -12,17 +14,31 @@ const tiers = [
         id: 'tier-seemore',
         href: '#',
         image: Product,
-        description: "Introducing TRX-2643: Revolutionizing Maternal-Fetal Medicine with Precision! Harnessing CRISPR Innovation and Next-Gen Sequencing to Combat Gestational Diabetes. ",
+        description: "Introducing TRX-2643: Revolutionizing Maternal-Fetal Medicine with Precision! Harnessing CRISPR Innovation and Next-Gen Sequencing to Combat Gestational Diabetes.",
+    },
+    {
+        name: 'Synthetic Biology',
+        id: 'tier-synthetic',
+        href: '#',
+        image: Synthetic,
+        description: "Building new-life with consciousness of the microbiome, positioned to gain insights into age-old diseases.",
+    },
+    {
+        name: 'Deep Learning',
+        id: 'tier-deep',
+        href: '#',
+        image: Deep,
+        description: "Investigating trends in user data using patterns found over 10,000 biological data points, providing personalized insight.",
     },
     {
         name: 'Pipeline',
         id: 'tier-pipeline',
         href: '#',
         image: Pipeline,
-        description: "Explore Terix's innovative pipeline, delivering next-generation diagnostics for safer pregnancies and healthier babies.",
+        description: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit",
     },
     {
-        name: 'Research',
+        name: 'Our Research',
         id: 'tier-research',
         href: '#',
         image: Research,
@@ -61,7 +77,7 @@ export function MoreInfo() {
                             )}
                             style={{ flex: '0 0 40%' }}
                         >
-                            <img className='h-1/3 w-full' src={tier.image} alt="" srcset="" />
+                            <img className='h-1/2 w-full' src={tier.image} alt="" srcset="" />
                             <p className="mt-12 home-cards-paragraph font-semibold">{tier.description}</p>
                             <a
                                 href={tier.href}

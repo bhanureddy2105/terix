@@ -389,6 +389,20 @@
   color: #3C2B47;
 }
 
+
+.science-card-desc {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  /* or 273% */
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+
+
+}
+
 .synthetic-para {
 
   font-family: 'Inter';

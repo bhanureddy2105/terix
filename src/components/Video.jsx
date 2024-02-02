@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import Thumbnail from "../images/thumbnail.png"
 
 
 export function Video() {
